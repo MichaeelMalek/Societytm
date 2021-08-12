@@ -20,10 +20,8 @@ if __name__ == "__main__":
 
 @bot.event
 async def on_ready():
-    print('Logged in as')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('enjoy')
+    print(f'Logged in as {bot.user.name}')
+    print(f'ID = {bot.user.id}')
    
 
 bot.run(TOKEN)
